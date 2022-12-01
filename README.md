@@ -1,24 +1,27 @@
-# README
+# Itinerary
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### サイトテーマ
+旅行を計画したり、他のユーザーの行った場所を参考にしたりできる旅行計画アプリです。
 
-Things you may want to cover:
+### テーマを選んだ理由
+自分が旅行する際に場所の確認をしたり、他のユーザーの旅行先を参考にして旅行先の選択肢を広げることが出来るようにしたいと思いこのテーマにしました。
+他にも簡単に旅行計画が立てられる事、有名どころだけでなく誰も知らないようなところを見つける事が出来るようにしたいです
 
-* Ruby version
+### ターゲットユーザ
+旅行好き、これから旅行の計画を立てたい人、他のユーザーの旅行先を参考にしたい人
 
-* System dependencies
+### 主な利用シーン
+旅行の計画を立てる時、他のユーザーがどんな所に旅行に行っているのか見てみたい時
 
-* Configuration
+## 設計書
+https://docs.google.com/spreadsheets/d/1f0voo8T4pMCGzt_Ukna8D5GrgBHjtT49XyOm9PLEOSQ/edit#gid=375590402
 
-* Database creation
+## 実装機能リスト
 
-* Database initialization
+## 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JSライブラリ：jQuery
+- IDE：Cloud9
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
