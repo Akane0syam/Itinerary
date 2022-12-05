@@ -20,8 +20,9 @@
   </div>
 
   <div class="actions">
-    <%= f.submit "Sign up" %>
+    <%= f.submit "登録する" %>
   </div>
 <% end %>
 
-<%= render "user/shared/links" %>
+<p><%= link_to "こちら", new_user_session_path %>からログインしてください。</p>
+
