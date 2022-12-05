@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  namespace :user do
+    get 'users/show'
+    get 'users/edit'
+  end
   # URL /users/sign_in ...
   devise_for :users, controllers: {
   registrations: "user/registrations",
