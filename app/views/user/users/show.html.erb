@@ -1,14 +1,8 @@
-<<<<<<< HEAD
+
  <h3><%= @user.name %></h3>
  
- 
-  <%#= image_tag @user.get_profile_image(100,100) %>
-  <%# if @user == current_user %>
-
+  
   <%# end %>
   <p>名前</p>
   <p>自己紹介</p>
-=======
-<h1>User::Users#show</h1>
-<p>Find me in app/views/user/users/show.html.erb</p>
->>>>>>> origin/main
+<%= link_to "編集する",edit_user_user_path, class: "btn btn-success" %>

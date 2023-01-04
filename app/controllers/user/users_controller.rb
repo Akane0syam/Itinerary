@@ -1,9 +1,8 @@
 class User::UsersController < ApplicationController
   def show
-<<<<<<< HEAD
     @users = User.find(params[:id])
     @user = current_user
-    #@post_images = @user.post_images.page(params[:page])
+    #@user_images = @user.image
   end
 
   def edit
@@ -13,10 +12,5 @@ class User::UsersController < ApplicationController
     @users = User.find(params[:id]) 
     @user.update(user_params)
     redirect_to user_path(@user.id)
-=======
-  end
-
-  def edit
->>>>>>> origin/main
   end
 end

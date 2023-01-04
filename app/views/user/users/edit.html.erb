@@ -1,2 +1,5 @@
-<h1>User::Users#edit</h1>
-<p>Find me in app/views/user/users/edit.html.erb</p>
+<h2>プロフィール編集</h2>
+<%= form_with model: @users, url: user_user_path, method: :patch do |f| %>
+  <%= f.label :氏名 %>
+  <%= f.text_field :name %>
+<% end %>

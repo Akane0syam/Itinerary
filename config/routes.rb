@@ -1,9 +1,5 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
   root to: 'homes#top'
-=======
-  get 'homes/top'
->>>>>>> origin/main
   # URL /users/sign_in ...
 devise_for :users, controllers: {
   registrations: "user/registrations",
